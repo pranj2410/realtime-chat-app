@@ -1,5 +1,7 @@
+// create connection with socket
 const socket = io()
 let name;
+// inserting messages in DOM
 let textarea = document.querySelector('#textarea')
 let messageArea = document.querySelector('.message__area')
 do {
